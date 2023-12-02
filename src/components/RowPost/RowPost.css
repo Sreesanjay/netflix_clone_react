@@ -10,17 +10,19 @@
     overflow-y: hidden;
 }
 .poster{
-    max-height: 200px;
+    max-height: 150px;
     margin-right: 10px;   
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 .poster:hover{
     transform: scale(1.1);
 }
 .small-poster{
-    max-height: 150px;
+    max-height: 130px;
     margin-right: 10px;   
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 .small-poster:hover{
     transform: scale(1.1);
